@@ -1,0 +1,104 @@
+{
+	"setup_dirs": [
+		"../web/css",
+		"../web/vendor"
+	],
+	"setup_symlinks": [
+		{
+			"title": "images dir",
+			"src": "../src/images",
+			"dst": "../web/images",
+			"type": "dir"
+		},
+		{
+			"title": "js dir",
+			"src": "../src/js",
+			"dst": "../web/js",
+			"type": "dir"
+		},
+		{
+			"title": "templates dir",
+			"src": "../src/templates",
+			"dst": "../web/templates",
+			"type": "dir"
+		},
+
+		{
+			"title": "data dir",
+			"src": "../src/data",
+			"dst": "../web/data",
+			"type": "dir"
+		},
+
+		{
+			"title": "AMD-Utils",
+			"src": "../vendor/amd-utils/src",
+			"dst": "../web/vendor/amd-utils",
+			"type": "dir"
+		},
+
+
+		{
+			"title": "requirejs order",
+			"src": "../vendor/requirejs/order.js",
+			"dst": "../web/vendor/requirejs/order.js",
+			"type": "file"
+		},
+		{
+			"title": "requirejs require",
+			"src": "../vendor/requirejs/require.js",
+			"dst": "../web/vendor/requirejs/require.js",
+			"type": "file"
+		},
+		{
+			"title": "requirejs text",
+			"src": "../vendor/requirejs/text.js",
+			"dst": "../web/vendor/requirejs/text.js",
+			"type": "file"
+		},
+
+
+
+		{
+			"title": "crossroads.js",
+			"src": "../vendor/crossroads.js/dist/crossroads.js",
+			"dst": "../web/vendor/crossroads.js/crossroads.js",
+			"type": "file"
+		},
+
+
+
+		{
+			"title": "doT",
+			"src": "../vendor/doT/doT.js",
+			"dst": "../web/vendor/doT/doT.js",
+			"type": "file"
+		},
+
+
+
+		{
+			"title": "jquery",
+			"src": "../vendor/jquery/jquery.js",
+			"dst": "../web/vendor/jquery/jquery.js",
+			"type": "file"
+		},
+
+
+
+		{
+			"title": "twitter bootstrap",
+			"src": "../vendor/twitter/bootstrap/js.js",
+			"dst": "../web/vendor/twitter/bootstrap.js",
+			"type": "file"
+		},
+
+
+		{
+			"title": "Classify",
+			"src": "../vendor/Classify/dist/amd",
+			"dst": "../web/vendor/Classify/",
+			"type": "dir"
+		}
+	]
+}

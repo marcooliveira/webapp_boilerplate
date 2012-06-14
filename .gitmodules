@@ -1,0 +1,18 @@
+[submodule "vendor/requirejs"]
+	path = vendor/requirejs
+	url = git@github.com:jrburke/requirejs.git
+[submodule "vendor/r.js"]
+	path = vendor/r.js
+	url = git@github.com:jrburke/r.js.git
+[submodule "vendor/doT"]
+	path = vendor/doT
+	url = git@github.com:olado/doT.git
+[submodule "vendor/crossroads.js"]
+	path = vendor/crossroads.js
+	url = git@github.com:millermedeiros/crossroads.js.git
+[submodule "vendor/Classify"]
+	path = vendor/Classify
+	url = git@github.com:TrinityJS/Classify.git
+[submodule "vendor/amd-utils"]
+	path = vendor/amd-utils
+	url = git@github.com:millermedeiros/amd-utils.git

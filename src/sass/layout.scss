@@ -1,0 +1,40 @@
+html, body {
+    height: 100%;
+}
+
+#app {
+    min-height: 600px;
+    height: 100%;
+    position: relative;
+}
+
+#header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 70px;
+}
+
+#content {
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    right: 0px;
+    bottom: 30px;
+    overflow: hidden;
+}
+
+#content > * {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 30px;
+}
